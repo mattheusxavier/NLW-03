@@ -16,24 +16,26 @@
 
     height: 100%;
     max-height: 680px;
-    
+
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
+
+    background: url('../../images/landing.svg') no-repeat 80% center;
 }
 
-#page-landing .content-wrapper main{
+.content-wrapper main {
     max-width: 350px;
 }
 
-#page-landing .content-wrapper main h1 {
+.content-wrapper main h1 {
     font-size: 76px;
     font-weight: 900;
     line-height: 70px;
 }
 
-#page-landing .content-wrapper main p {
+.content-wrapper main p {
     margin-top: 40px;
     font-size: 24px;
     line-height: 34px;
@@ -53,7 +55,7 @@
     text-align: right;
 }
 
-.content-wrapper .location strong{
+.content-wrapper .location strong {
     font-weight: 800;
 }
 
@@ -71,9 +73,9 @@
     align-items: center;
     justify-content: center;
 
-    transition: background-color 0,2s;
+    transition: background-color 0.2s;
 }
 
-.content-wrapper .enter-app:hover {
+.content-wrapper .enter-app:hover{
     background: #96FEFF;
 }
